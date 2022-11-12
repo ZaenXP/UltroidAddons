@@ -1,12 +1,12 @@
-#credit @tofik_dn
-
+# 🍀 © @tofik_dn
+# ⚠️ Do not remove credits
 
 
 """
-âœ˜ Commands Available -
-â€¢ `{i}sange`
+✘ Commands Available -
+• `{i}sange`
    To send random intake video.
-â€¢ `{i}ange`
+• `{i}ange`
    To send a random wibu video.
 """
 
@@ -22,7 +22,7 @@ import requests
 
 from . import *
 
-@ultroid_cmd(pattern="ange ?(.*)")
+@ultroid_cmd(pattern="sange ?(.*)")
 async def _(event):
     try:
         asupannya = [
@@ -39,7 +39,7 @@ async def _(event):
         
         await event.delete()
     except Exception:
-        await event.edit("Tidak bisa menemukan video asupan.")
+        await event.edit("Tidak bisa menemukan video video.")
 
 
 @ultroid_cmd(pattern="ange ?(.*)")
@@ -59,4 +59,4 @@ async def _(event):
         
         await event.delete()
     except Exception:
-        await event.edit("Tidak bisa menemukan video asupan.")
+        await event.edit("Tidak bisa menemukan video video.")
