@@ -10,14 +10,6 @@
    To send a random wibu video.
 """
 
-
-from userbot import CMD_HELP
-from userbot.utils import ultroid_cmd
-import random
-from userbot import owner
-from telethon.tl.types import InputMessagesFilterVideo
-from telethon.tl.types import InputM
-
 import requests
 
 from . import *
